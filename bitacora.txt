@@ -6,3 +6,7 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+10     git checkout
+11     git push origin DatosPersonales
+12                                  La fusión tendría que darse por recursión
+13     git add *, git commit
