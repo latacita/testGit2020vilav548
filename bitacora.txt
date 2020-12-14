@@ -7,19 +7,37 @@
  Paso   Acción                       Notas
 ====== ============================ ================================
 01     git clone
-02     git branch, git checkout
+02     git branch
+       git checkout
 03     [Editar PlanVacunacion]
 04     [Editar bitacora]
-05     git add *, git commit
+05     git add * 
+       git commit
 06     git checkout master
-07     git branch, git checkout
+07     git branch
+       git checkout
 08     [Crear antecedentes]
-09     git add *, git commit
+09     git add * 
+       git commit
 10     git checkout
 11     git push origin DatosPersonales
 12                                              La fusión tendría que darse por recursión
-13     git add *, git commit
-14     git merge Antecedentes, git commit       Recursiva con conflictos
-15     git merge DatosPersonales, git commit    Recursiva con conflictos
-16     git add *, git commit
+13     git add *
+       git commit
+14     git merge Antecedentes                   Recursiva con conflictos
+       git commit                               
+15     git merge DatosPersonales                Recursiva con conflictos
+       git commit    
+16     git add *
+       git commit
+17     git tag FusionTerminada
+18     git push                                 Master local está obsoleta
+       git pull                                 Conflicto en PlanVacunacion
+       [Editar PlanVacunacion] git add *
+       git commit
+       git push
+19     [Editar bitacora]
+       git add *
+       git commit
+       git push
 
