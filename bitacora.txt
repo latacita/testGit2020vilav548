@@ -10,4 +10,4 @@
 02     git branch, git checkout
 03     [Editar PlanVacunacion]
 04     [Editar bitacora]
-05     git commit
+05     git add *, git commit
