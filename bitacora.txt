@@ -6,6 +6,10 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+06     git checkout master
+07     git branch, git checkout
+08     [Crear antecedentes]
+09     git add *, git commit
 10     git checkout
 11     git push origin DatosPersonales
 12                                  La fusión tendría que darse por recursión
