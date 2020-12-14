@@ -1,8 +1,13 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre): Martínez Vila, Víctor                %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+01     git clone
+02     git branch, git checkout
+03     [Editar PlanVacunacion]
+04     [Editar bitacora]
+05     git commit
